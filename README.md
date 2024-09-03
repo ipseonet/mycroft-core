@@ -5,10 +5,12 @@
 
 ![Unit Tests](https://github.com/mycroftai/mycroft-core/workflows/Unit%20Tests/badge.svg)
 [![codecov](https://codecov.io/gh/MycroftAI/mycroft-core/branch/dev/graph/badge.svg?token=zQzRlkXxAr)](https://codecov.io/gh/MycroftAI/mycroft-core)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Join chat](https://img.shields.io/badge/Mattermost-join_chat-brightgreen.svg)](https://chat.mycroft.ai)
 
-# Mycroft
+# This project is no longer actively maintained
+
+Mycroft core is no longer maintaiend and probably likely not work on your computer anymore. [Open Voice OS](https://openvoiceos.org) and [Neon-core](https://github.com/NeonGeckoCom/NeonCore) are both spiritual successors to Mycroft. (And some of the old code may live on there.)
+
+# Old Readme
 
 Mycroft is a hackable open source voice assistant.
 
