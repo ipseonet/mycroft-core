@@ -6,11 +6,15 @@
 ![Unit Tests](https://github.com/mycroftai/mycroft-core/workflows/Unit%20Tests/badge.svg)
 [![codecov](https://codecov.io/gh/MycroftAI/mycroft-core/branch/dev/graph/badge.svg?token=zQzRlkXxAr)](https://codecov.io/gh/MycroftAI/mycroft-core)
 
-# This project is no longer actively maintained
+# Work in Progress.
 
-Mycroft core is no longer maintaiend and probably likely not work on your computer anymore. [Open Voice OS](https://openvoiceos.org) and [Neon-core](https://github.com/NeonGeckoCom/NeonCore) are both spiritual successors to Mycroft. (And some of the old code may live on there.)
+Mycroft-core is no longer maintained by the wonderful people of mycroft.ai. Thankfully they continued sharing the repository. It is possible to get mycroft-core to install, but there is no API for Skill Pairing and no account.mycroft.ai for pairing the device. I belive it is possible to bypass both and use the cli itself and install skills individually, and I am working on doing so.
+For now I only have Debian 12 instructions. Similar use may enable functionality on another OS.
+* requirements.txt is changed from the main branch
+* fann may have to be installed from source
+* safest use is with python3 venv
 
-# Old Readme
+# [Archived] Readme
 
 Mycroft is a hackable open source voice assistant.
 
