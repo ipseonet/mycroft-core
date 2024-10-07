@@ -7,11 +7,32 @@
 
 # Work in Progress.
 
-Mycroft-core is no longer maintained by the wonderful people of mycroft.ai. Thankfully they continued sharing the repository. It is possible to get mycroft-core to install, but there is no API for Skill Pairing and no account.mycroft.ai for pairing the device. I belive it is possible to bypass both and use the cli itself and install skills individually, and I am working on doing so.
+Mycroft-core is no longer maintained by the wonderful people of mycroft.ai. Thankfully they continued sharing the repository. It is possible to get mycroft-core to install, but there is no API for Skill Pairing and no account.mycroft.ai for pairing the device.
+
+It is possible to bypass device pairing by using the config shown in the README.
+* API Keys need to be individually set
+* Mycroft Speaks and has microphone input but does not have STT without API keys
+* Default response is "I don't Understand." without STT API keys.
+  
+
 For now I only have Debian 12 instructions. Similar use may enable functionality on another OS.
 * requirements.txt is changed from the main branch
 * fann may have to be installed from source
 * safest use is with python3 venv
+* .venv-activate.sh is not working out of the box
+
+### How to use:
+```
+git clone https://github.com/ipseonet/mycroft-core.git
+cd mycroft-core
+python3 -m venv mycroft-venv
+source ./mycroft-venv/bin/activate
+bash ./dev_setup.sh
+./start-mycroft.sh all
+./start-mycroft.sh cli
+```
+Mycroft is a hackable open source voice assistant.
+
 
 # [Archived] Readme
 
